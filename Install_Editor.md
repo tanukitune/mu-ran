@@ -9,7 +9,7 @@
 
 https://code.visualstudio.com/
 
-1. 上記URLにてV1.68をダウンロード(2022/6/11時点最新)
+1. 上記URLにてV1.68をダウンロード(2022/6/11時点最新)<br>
 ※先にpythonをインストールしてください
 ![image](https://user-images.githubusercontent.com/20737362/173195143-06e86fd4-0dfd-47e6-88dd-aebffa9a8f2b.png)
 
