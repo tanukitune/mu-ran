@@ -31,9 +31,9 @@ https://github.com/
 ![image](https://user-images.githubusercontent.com/20737362/173198067-971cc0db-c67e-47be-97f7-94c569de52c7.png)
 
 7. サイトに沿って進める(6年前から登録していたので画面での説明出来ません.すみません.ググればたくさん情報出てきます)<br>
-8.コマンドプロンプトでローカル作業環境を作りたい場所に移動する(僕の場合は｢cd programing/mu-ran｣)<br>
-9.コマンドプロンプトに｢git init｣と入力してリポジトリを作成する
+8. コマンドプロンプトでローカル作業環境を作りたい場所に移動する(僕の場合は｢cd programing/mu-ran｣)<br>
+9. コマンドプロンプトに｢git init｣と入力してリポジトリを作成する
 ![image](https://user-images.githubusercontent.com/20737362/173198517-7b8fa53f-3bdc-4df6-9444-e40b047a7ae8.png)
 
-
+## その他コマンド作成中
 
