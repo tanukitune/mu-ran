@@ -35,5 +35,67 @@ https://github.com/
 9. コマンドプロンプトに｢git init｣と入力してリポジトリを作成する
 ![image](https://user-images.githubusercontent.com/20737362/173198517-7b8fa53f-3bdc-4df6-9444-e40b047a7ae8.png)
 
-## その他コマンド作成中
+10. origin に リモートリポジトリの場所を付与する ｢git remote add origin "リポジトリ名"｣<br>
+今回のmu-ranリポジトリなら｢git remote add origin https://github.com/tanukitune/mu-ran.git ｣になる<br><br>
 
+11. 上記コマンドが完了したら｢git pull origin main｣でローカルとリモートを同期させる
+![image](https://user-images.githubusercontent.com/20737362/173225409-dcc64412-ac7c-419b-b847-d7c9eafc93af.png)
+
+## よく使いそうなコマンド一覧
+
+## 最初にやること
+### ･gitの作成
+git init
+
+### ･originにネット上のリポジトリを付与する
+git remote add origin https://github.com/tanukitune/mu-ran.git
+
+### ･ネット上のリポジトリを拾ってくる
+git clone https://github.com/tanukitune/mu-ran.git
+
+## ブランチ操作
+### ･git上の一覧
+git branch
+
+### ･git上にローカルブランチの作成
+git branch branch_name
+
+### ･git上のローカルブランチを移動する
+git checkout branch_name
+
+### ･GitHub上のブランチをgitに取り込む
+git checkout branch_name
+git pull origin branch_name
+
+### ･GitHubにブランチをプッシュする
+git push origin branch_name
+
+### ･gitのブランチをマージする(AにBをマージ)
+git checkout branch_nameA
+git merge branch_nameB
+
+## 内容を更新
+### ･gitの中身を確認
+git status
+
+### ･gitにファイル/フォルダを追加
+git add file_name
+
+### ･gitのファイル/フォルダを削除
+git rm file_name
+
+### ･gitにコミットする
+git commit -m "comment"
+
+### ･GitHubにコミットする
+git push origin branch_name
+
+### ･GitHubからプルする
+git pull origin branch_name
+
+### ･gitのログを閲覧する
+git log -n 10
+
+### ･git push で (non-fast-forward) のエラーが出たとき
+git merge --allow-unrelated-histories origin/main
+git push origin main
