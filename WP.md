@@ -33,3 +33,8 @@
 * 景気循環の頻度と価格変動の大きさをどうするか
 * ショップ数をどうするか
 * 目標をどうするか(最終資金?ショップのグレード?)
+
+### ラフ画
+![image](https://user-images.githubusercontent.com/20737362/173589796-63efa8ee-d043-40b5-a578-72051715d38d.png)
+![image](https://user-images.githubusercontent.com/20737362/173589897-3cbaac3d-9181-4a39-aab4-8f586aaef48d.png)
+
